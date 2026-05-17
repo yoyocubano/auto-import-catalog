@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "brand": "Audi",
+    "model": "Q8 50 TDI competition plus",
+    "year": "02/2023",
+    "mileage": 68707,
+    "price_germany": 68890,
+    "price_import_lux": 71500,
+    "price_import_esp": 78900,
+    "specs": "Diésel (286 CV), Tracción Quattro, Acabado Competition Plus, Calefacción Auxiliar (STANDHZG), Faros Matrix LED, Suspensión Neumática.",
+    "status": "Disponible",
+    "image_placeholder_prompt": "Ultra-realistic automotive photography of a black Audi Q8 50 TDI competition plus parked on a luxury hotel driveway in Flensburg. Blue hour, reflection on paint, film grain."
+  },
+  {
+    "id": 2,
+    "brand": "Audi",
+    "model": "Q8 50 TDI Quattro S-Line Sport",
+    "year": "11/2018",
+    "mileage": 149707,
+    "price_germany": 37950,
+    "price_import_lux": 40500,
+    "price_import_esp": 44900,
+    "specs": "Diésel (286 CV), Tracción Quattro, Paquete Deportivo S-Line, Sin accidentes, Navegador LED, Asientos Deportivos, TÜV nuevo hasta 2028.",
+    "status": "Disponible",
+    "image_placeholder_prompt": "Sleek grey Audi Q8 50 TDI S-Line Sport on a wet mountain pass. Cinematic lighting, fine film grain, realistic camera distortion."
+  },
+  {
+    "id": 3,
+    "brand": "BMW",
+    "model": "X5 xDrive35i F15",
+    "year": "01/2014",
+    "mileage": 114000,
+    "price_germany": 22990,
+    "price_import_lux": 25500,
+    "price_import_esp": 28900,
+    "specs": "Gasolina (306 CV), Tracción xDrive, Sin accidentes, Asientos de cuero, Techo panorámico, Faros Xenon.",
+    "status": "Disponible",
+    "image_placeholder_prompt": "Cinematic shot of a silver BMW X5 xDrive35i F15 under bridge lights. Film grain, medium format photography."
+  },
+  {
+    "id": 4,
+    "brand": "Mercedes-Benz",
+    "model": "GLE 350 d 4Matic AMG-LINE",
+    "year": "05/2016",
+    "mileage": 190215,
+    "price_germany": 28990,
+    "price_import_lux": 31500,
+    "price_import_esp": 34900,
+    "specs": "Diésel (258 CV), Tracción 4Matic, Paquete Deportivo AMG-Line, Sin accidentes, Cámara de 360°, Gancho de remolque (AHK), Navegador Premium.",
+    "status": "Disponible",
+    "image_placeholder_prompt": "Black Mercedes-Benz GLE 350 d AMG-LINE parked in a modern minimalist villa driveway. Evening lighting, Kodak Portra 400 grain."
+  },
+  {
+    "id": 5,
+    "brand": "Porsche",
+    "model": "Macan Turbo Sport-Design Chrono+",
+    "year": "10/2015",
+    "mileage": 155605,
+    "price_germany": 30990,
+    "price_import_lux": 33900,
+    "price_import_esp": 37900,
+    "specs": "Gasolina (400 CV), Paquete Sport-Design, Paquete Chrono Plus, Escape Deportivo, Techo Panorámico, Llantas de 20 pulgadas, Cámara 360°, Faros LED, TÜV Recién Pasado.",
+    "status": "Disponible",
+    "image_placeholder_prompt": "Ultra-realistic photography of a dark blue metallic Porsche Macan Turbo. Shot on Hasselblad, shallow depth of field, fine film grain, natural reflections."
+  }
+]
