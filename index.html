@@ -69,17 +69,18 @@
 
         .page-content {
             padding: 35px; height: 100%; display: flex; flex-direction: column;
-            z-index: 2; position: relative;
+            z-index: 2; position: relative; justify-content: center;
         }
 
         .img-contain { width: 100%; height: 100%; object-fit: contain; background-color: #000; pointer-events: none; }
         .img-cover { width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
-        .bg-image-half { width: 100%; height: 45%; background-size: cover; background-position: center; border-bottom: 2px solid #d4af37; pointer-events: none; }
+        .bg-image-half { width: 100%; height: 40%; flex: 0 0 40%; background-size: cover; background-position: center; border-bottom: 2px solid #d4af37; pointer-events: none; }
         .bg-banner { width: 100%; height: 35%; background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #111; pointer-events: none; }
 
         .text-content { 
             flex: 1; 
-            padding: 25px; 
+            height: auto;
+            padding: 20px 25px; 
             display: flex; 
             flex-direction: column; 
             justify-content: center; 
@@ -128,9 +129,9 @@
         .caption-box p { color: #fff; margin: 0; font-size: 0.9rem; }
 
         .price-sticker {
-            position: absolute; bottom: 35px; left: 25px; background: #d32f2f; color: #fff;
+            position: absolute; top: 80px; right: 25px; background: #d32f2f; color: #fff;
             font-family: 'Montserrat', sans-serif; font-weight: 800; padding: 8px 18px;
-            font-size: 1.4rem; transform: rotate(-6deg); box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+            font-size: 1.4rem; transform: rotate(6deg); box-shadow: 0 6px 15px rgba(0,0,0,0.6);
             border: 3px solid #fff; border-radius: 4px; z-index: 20; letter-spacing: 1px;
             pointer-events: none; white-space: nowrap;
         }
@@ -488,20 +489,20 @@
             </div>
 
             <!-- PAGE 19: Pricing & CTA -->
-            <div class="page">
+            <div class="page dark-theme">
                 <div class="page-content text-content" style="align-items: center; padding: 20px;">
-                    <h2 style="text-align:center; border:none; padding-bottom:0; font-size: 1.3rem;">¿Buscas otro modelo?</h2>
-                    <h3 style="text-align:center; color:#777; font-size:0.8rem; margin-bottom: 5px;">Búsqueda a la carta / Custom Sourcing</h3>
+                    <h2 style="text-align:center; border:none; padding-bottom:0; font-size: 1.3rem; color: #d4af37;">¿Buscas otro modelo?</h2>
+                    <h3 style="text-align:center; color:#aaa; font-size:0.8rem; margin-bottom: 5px;">Búsqueda a la carta / Custom Sourcing</h3>
                     
                     <div class="lang-block" style="text-align: center; margin-bottom: 15px;">
-                        <p>Dinos la marca, presupuesto y año. Nosotros lo cazamos en Alemania y te damos un presupuesto <strong>Llave en Mano</strong>.</p>
+                        <p style="color: #ddd;">Dinos la marca, presupuesto y año. Nosotros lo cazamos en Alemania y te damos un presupuesto <strong>Llave en Mano</strong>.</p>
                     </div>
 
-                    <div class="cta-box" style="margin-top:0; width: 100%; padding: 15px;">
-                        <h3 style="font-size: 1.5rem; letter-spacing: 1px;">Reservar Oferta</h3>
-                        <p style="color: #d4af37; font-weight: 600; margin-bottom: 5px; font-size: 0.75rem; text-transform: uppercase;">Asegura un vehículo</p>
+                    <div class="cta-box" style="margin-top:0; width: 100%; padding: 15px; border-color: #d4af37;">
+                        <h3 style="font-size: 1.5rem; letter-spacing: 1px; color: #d4af37;">Reservar Oferta</h3>
+                        <p style="color: #fff; font-weight: 600; margin-bottom: 5px; font-size: 0.75rem; text-transform: uppercase;">Asegura un vehículo</p>
                         
-                        <a href="https://wa.me/352621430283?text=Hola!%20He%20visto%20el%20cat%C3%A1logo%20de%20Auto%20Import.%20Quiero%20solicitar%20una%20b%C3%BAsqueda%20personalizada%20de%20un%20coche%20en%20Alemania." target="_blank" style="margin-top: 5px; padding: 10px 15px;">Solicitar Búsqueda</a>
+                        <a href="https://wa.me/352621430283?text=Hola!%20He%20visto%20el%20cat%C3%A1logo%20de%20Auto%20Import.%20Quiero%20solicitar%20una%20b%C3%BAsqueda%20personalizada%20de%20un%20coche%20en%20Alemania." target="_blank" style="margin-top: 5px; padding: 10px 15px; color: #111; background-color: #d4af37;">Solicitar Búsqueda</a>
                         
                         <p style="font-size: 0.7rem; margin-top: 15px; color:#aaa;">Email: yucolaguilar@gmail.com</p>
                     </div>
@@ -510,16 +511,15 @@
             </div>
 
             <!-- PAGE 20: BACK COVER (Legal) -->
-            <div class="page --hard" style="padding: 0; display: flex; flex-direction: column; position:relative;">
-                <div style="flex: 1; background: #000; overflow: hidden; position:relative; display:flex; justify-content:center; align-items:center;">
-                    <img src="assets/img3.png" class="img-contain" style="padding: 10px; opacity: 0.4;" alt="Catálogo Importación" />
-                    <div style="position: absolute; text-align: center;">
-                        <h1 style="font-size: 2rem;">AUTO IMPORT<br>PREMIUM</h1>
-                        <p style="color: #d4af37; letter-spacing: 2px; font-weight: bold;">Alemania ➔ LUX / ESP</p>
+            <div class="page --hard" style="padding: 0; display: flex; flex-direction: column; position:relative; background: #0b0c10;">
+                <div style="flex: 1; background: #0b0c10; overflow: hidden; position:relative; display:flex; justify-content:center; align-items:center; border-bottom: 2px solid #d4af37;">
+                    <div style="text-align: center; padding: 20px;">
+                        <h1 style="font-size: 2rem; color: #d4af37; letter-spacing: 4px; font-family: 'Playfair Display', serif;">AUTO IMPORT<br>PREMIUM</h1>
+                        <p style="color: #fff; letter-spacing: 2px; font-weight: bold; margin-top: 10px; font-size: 0.85rem;">Alemania ➔ LUX / ESP</p>
                     </div>
                 </div>
-                <div class="legal-text">
-                    <strong>AVISO LEGAL:</strong> Auto Import Premium actúa como intermediario comercial. Las garantías vehiculares están sujetas a la red oficial (ej. Toyota Relax, BMW Premium Selection) o pólizas de terceros contratadas.
+                <div class="legal-text" style="background: #0b0c10; border-top-color: #222;">
+                    <strong>AVISO LEGAL:</strong> Auto Import Premium actúa como intermediario comercial. Las garantías vehiculares están sujetas a la red oficial del fabricante correspondiente (Junge Sterne, Audi Plus, etc.) o a pólizas de terceros contratadas.
                 </div>
             </div>
 

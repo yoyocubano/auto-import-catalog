@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Brochure - Toyota Yaris Hybrid</title>
-    <meta property="og:title" content="Toyota Yaris Hybrid - Édition Prestige" />
-    <meta property="og:description" content="L'innovation Toyota à son apogée. Découvrez notre brochure interactive avec spécifications complètes." />
-    <meta property="og:image" content="https://yoyocubano.github.io/toyota-yaris/assets/img2.png" />
-    <meta property="og:url" content="https://yoyocubano.github.io/toyota-yaris/brochure.html" />
+    <title>Brochure - Auto Import Premium</title>
+    <meta property="og:title" content="Auto Import Premium - Catálogo de Importación" />
+    <meta property="og:description" content="Servicio boutique de importación de vehículos de alta gama desde Alemania a Luxemburgo y España." />
+    <meta property="og:image" content="https://yoyocubano.github.io/auto-import-catalog/assets/mercedes_junge_sterne_infographic.png" />
+    <meta property="og:url" content="https://yoyocubano.github.io/auto-import-catalog/brochure.html" />
     <meta name="twitter:card" content="summary_large_image">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
@@ -30,33 +30,33 @@
             display: flex; flex-direction: column;
         }
 
-        .dark { background: #111; color: #fff; }
+        .dark { background: #0b0c10; color: #fff; }
         .dark h1, .dark h2 { color: #d4af37; }
         
-        .cover { justify-content: center; align-items: center; text-align: center; background: #111; }
-        .cover h1 { font-family: 'Playfair Display', serif; font-size: 4rem; color: #d4af37; letter-spacing: 5px; margin-bottom: 10px;}
-        .cover p { font-size: 1.5rem; letter-spacing: 3px; color: #fff; text-transform: uppercase; }
-        .cover-img { width: 100%; height: 50%; object-fit: cover; margin: 2cm 0; border-top: 5px solid #d4af37; border-bottom: 5px solid #d4af37;}
+        .cover { justify-content: center; align-items: center; text-align: center; background: #0b0c10; }
+        .cover h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; color: #d4af37; letter-spacing: 5px; margin-bottom: 10px; line-height: 1.2;}
+        .cover p { font-size: 1.2rem; letter-spacing: 3px; color: #fff; text-transform: uppercase; margin-top: 15px;}
+        .cover-img { width: 100%; height: 40%; object-fit: cover; margin: 2cm 0; border-top: 4px solid #d4af37; border-bottom: 4px solid #d4af37;}
 
         .content-page { padding: 2cm; display: flex; flex-direction: column; justify-content: center; }
-        .content-page h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-bottom: 20px;}
-        .content-page h3 { font-size: 1.2rem; color: #777; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 2px;}
-        .content-page p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 15px; text-align: justify; }
+        .content-page h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-bottom: 20px;}
+        .content-page h3 { font-size: 1rem; color: #777; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 2px;}
+        .content-page p { font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; text-align: justify; }
         .dark .content-page h3 { color: #aaa; }
         .dark .content-page p { color: #ddd; }
 
         .full-img-page { padding: 0; background: #000; display: flex; justify-content: center; align-items: center; position: relative;}
         .full-img-page img { width: 100%; height: 100%; object-fit: contain; }
 
-        .half-img { width: 100%; height: 40%; object-fit: cover; border-bottom: 3px solid #d4af37; }
+        .half-img { width: 100%; height: 35%; object-fit: cover; border-bottom: 3px solid #d4af37; }
 
-        .specs-list { list-style: none; padding: 0; margin-top: 2cm; }
-        .specs-list li { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #444; font-size: 1.2rem; }
-        .specs-list strong { color: #d4af37; font-family: 'Playfair Display', serif; font-size: 1.4rem; }
+        .specs-list { list-style: none; padding: 0; margin-top: 1cm; }
+        .specs-list li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #333; font-size: 1rem; }
+        .specs-list strong { color: #d4af37; font-family: 'Playfair Display', serif; font-size: 1.15rem; }
 
-        .contact-box { background: #d4af37; color: #111; padding: 2cm; text-align: center; margin-top: auto; }
-        .contact-box h3 { font-size: 3rem; margin-bottom: 10px; font-family: 'Playfair Display', serif; color: #111;}
-        .contact-box p { font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;}
+        .contact-box { background: #d4af37; color: #111; padding: 1.5cm; text-align: center; margin-top: auto; border-radius: 4px; }
+        .contact-box h3 { font-size: 2rem; margin-bottom: 10px; font-family: 'Playfair Display', serif; color: #111;}
+        .contact-box p { font-size: 1.1rem; font-weight: 600; margin-bottom: 5px;}
 
         @media print {
             body { background: #fff; margin: 0; padding: 0; }
@@ -72,29 +72,38 @@
                 min-height: 100vh;
                 margin: 0;
                 box-shadow: none;
-                border-bottom: 5px solid #111;
+                border-bottom: 5px solid #d4af37;
             }
-            .cover h1 { font-size: 2.5rem; letter-spacing: 2px; }
-            .cover p { font-size: 1rem; }
+            .cover h1 { font-size: 2.2rem; letter-spacing: 2px; }
+            .cover p { font-size: 0.9rem; }
             .content-page { padding: 1.5rem; }
-            .content-page h2 { font-size: 1.8rem; }
+            .content-page h2 { font-size: 1.6rem; }
             .specs-list { margin-top: 1rem; }
-            .specs-list li { flex-direction: column; gap: 5px; font-size: 1rem; }
-            .specs-list strong { font-size: 1.2rem; }
-            .contact-box { padding: 1.5rem; margin-top: 2rem; }
-            .contact-box h3 { font-size: 2rem; }
-            .print-btn { bottom: 20px; top: auto; right: 20px; padding: 10px 20px; font-size: 1rem; }
-            .full-img-page video, .full-img-page img { height: 100vh; object-fit: cover; }
+            .specs-list li { flex-direction: column; gap: 5px; font-size: 0.9rem; }
+            .specs-list strong { font-size: 1.05rem; }
+            .contact-box { padding: 1.2rem; margin-top: 1.5rem; }
+            .contact-box h3 { font-size: 1.6rem; }
+            .print-btn {
+                position: fixed;
+                bottom: 20px;
+                top: auto;
+                right: 20px;
+                left: auto;
+                width: auto;
+                height: auto;
+                padding: 12px 24px;
+                font-size: 0.9rem;
+            }
+            .full-img-page img { height: 100vh; object-fit: cover; }
         }
-
 
         .print-btn {
             position: fixed; top: 20px; right: 20px;
-            background: #d4af37; color: #111; padding: 15px 30px;
-            font-size: 1.2rem; font-weight: bold; font-family: 'Montserrat', sans-serif;
+            background: #d4af37; color: #111; padding: 12px 24px;
+            font-size: 1rem; font-weight: bold; font-family: 'Montserrat', sans-serif;
             text-transform: uppercase; letter-spacing: 1px; border: none;
             cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            border-radius: 5px; z-index: 1000; transition: transform 0.2s;
+            border-radius: 4px; z-index: 1000; transition: transform 0.2s;
         }
         .print-btn:hover { transform: scale(1.05); }
 
@@ -102,102 +111,60 @@
 </head>
 <body>
 
-    <button class="print-btn no-print" onclick="window.print()">🖨️ Sauvegarder en PDF</button>
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Guardar PDF</button>
 
     <!-- Page 1: Cover -->
     <div class="page-wrapper cover">
-        <h1 style="margin-top: 4cm;">TOYOTA YARIS</h1>
-        <p>1.5 Hybrid Style e-CVT</p>
-        <img src="assets/img2.png" class="cover-img" />
-        <p style="font-size: 1.2rem; font-weight: 300;">ÉDITION PRESTIGE</p>
+        <h1 style="margin-top: 3cm;">AUTO IMPORT<br>PREMIUM</h1>
+        <p>Alemania ➔ Luxemburgo & España</p>
+        <img src="assets/img8.png" class="cover-img" />
+        <p style="font-size: 1rem; font-weight: 300; letter-spacing: 2px;">CATÁLOGO DE IMPORTACIÓN PREMIUM</p>
     </div>
 
-    <!-- Video Showcase 1 -->
-    <div class="page-wrapper full-img-page">
-        <video src="assets/video1.webm" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
-    </div>
-
-    <!-- Page 2: Infographic -->
-    <div class="page-wrapper full-img-page">
-        <img src="assets/img5.png" />
-    </div>
-
-    <!-- Page 3: Eco & Interior -->
-    <div class="page-wrapper content-page">
-        <img src="assets/img4.png" class="half-img" style="margin-bottom: 1cm;" />
-        <h2>Confort & Sécurité Premium</h2>
-        <h3>Tranquillité d'esprit absolue</h3>
-        <p><strong>[FR]</strong> Équipée de série du Toyota Safety Sense (freinage d'urgence, maintien de voie), elle veille sur vous en permanence. L'intérieur vous accueille avec des matériaux premium et une connectivité Apple CarPlay.</p>
-        <p><strong>[EN]</strong> Equipped as standard with Toyota Safety Sense, it watches over you constantly. The interior welcomes you with premium materials and full Apple CarPlay connectivity.</p>
-
-        <h2 style="margin-top: 1.5cm;">L'Économie à l'État Pur</h2>
-        <p>Oubliez les pleins coûteux. Grâce à sa motorisation hybride innovante, cette Yaris roule jusqu'à 50% du temps en mode 100% électrique lors de vos trajets urbains.</p>
-    </div>
-
-    <!-- Video Showcase 2 -->
-    <div class="page-wrapper full-img-page">
-        <video src="assets/video2.webm" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
-    </div>
-
-    <!-- Page 4: Infographic 2 -->
-    <div class="page-wrapper full-img-page">
-        <img src="assets/img6.png" />
-    </div>
-
-    <!-- Page 5: Hybrid & Lifestyle -->
+    <!-- Page 2: Proceso Boutique -->
     <div class="page-wrapper content-page dark">
-        <img src="assets/img9.png" class="half-img" style="margin-bottom: 1cm;" />
-        <h2>Le Cœur Hybride</h2>
-        <h3>Toyota Synergy Drive</h3>
-        <p><strong>[FR]</strong> L'innovation Toyota à son apogée. Le système hybride de 4ème génération combine un moteur essence 1.5L ultra-efficient avec un moteur électrique puissant. Consommation record et batterie auto-rechargeable.</p>
+        <h2>Servicio Boutique Llave en Mano</h2>
+        <h3>Importación Directa de Concesionarios Alemanes</h3>
         
-        <h2 style="margin-top: 1.5cm;">Agilité Urbaine</h2>
-        <p>Construite sur la plateforme TNGA, cette Yaris offre un centre de gravité abaissé. Maniabilité hors pair en ville et plaisir dynamique sur route grâce à sa boîte automatique e-CVT super fluide.</p>
+        <p><strong>[ES]</strong> Nos encargamos de todo el proceso de importación para que tu única preocupación sea disfrutar de tu coche de alta gama. Localizamos vehículos oficiales alemanes bajo estrictos criterios de calidad, negociamos precios netos y realizamos inspecciones exhaustivas de 150 puntos validadas por TÜV.</p>
+        
+        <p><strong>[EN]</strong> We manage the entire import cycle so your only task is enjoying your high-end vehicle. We source official manufacturers' stock under strict quality criteria, negotiate net prices, and conduct exhaustive 150-point technical checks.</p>
+
+        <h2 style="margin-top: 1cm;">Logística y Entrega Segura</h2>
+        <p>Organizamos el transporte en grúa o camión cerrado directamente a tu garaje en Luxemburgo o España, gestionamos placas temporales y seguros a todo riesgo, y pasamos la ITV de homologación para entregarte el coche listo para rodar con matrícula definitiva.</p>
     </div>
 
-    <!-- Page 6: Exterior & Design -->
-    <div class="page-wrapper content-page">
-        <img src="assets/img7.png" class="half-img" style="margin-bottom: 1cm;" />
-        <h2>Design Bi-Ton</h2>
-        <h3>Finition "Style" Exécutive</h3>
-        <p><strong>[FR]</strong> Avec sa peinture bi-ton exclusive (Gris Foncé et Toit Blanc) et ses jantes alliage 17", cette édition allie sportivité et élégance urbaine parfaite.</p>
-        <p><strong>[EN]</strong> With its exclusive bi-tone paint and 17-inch alloy wheels, this edition perfectly blends sportiness and urban elegance.</p>
-
-        <h2 style="margin-top: 1.5cm;">Signature Lumineuse</h2>
-        <p>Équipée de phares Full LED, elle offre une visibilité nocturne exceptionnelle tout en arborant une signature lumineuse agressive et résolument moderne.</p>
-    </div>
-
-    <!-- Video Showcase 3 -->
+    <!-- Page 3: Infographic Mercedes -->
     <div class="page-wrapper full-img-page">
-        <video src="assets/video3.webm" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
+        <img src="assets/mercedes_junge_sterne_infographic.png" alt="Mercedes Junge Sterne Infographic" />
     </div>
 
-    <!-- Page 7: Specs & Contact -->
-    <div class="page-wrapper content-page dark">
-        <h2>Spécifications Techniques</h2>
+    <!-- Page 4: Infographic Audi -->
+    <div class="page-wrapper full-img-page">
+        <img src="assets/audi_q4_etron_infographic.png" alt="Audi Q4 e-tron Infographic" />
+    </div>
+
+    <!-- Page 5: Curated Offers -->
+    <div class="page-wrapper content-page">
+        <h2>Inventario Destacado</h2>
+        <h3>Selección Alemana Exclusiva</h3>
+        
         <ul class="specs-list">
-            <li><span>Moteur / Engine</span> <strong>1.5L Hybride e-CVT</strong></li>
-            <li><span>Puissance / Power</span> <strong>116 ch (85 kW)</strong></li>
-            <li><span>0-100 km/h</span> <strong>9.7 sec</strong></li>
-            <li><span>Conso Mixte / Consumption</span> <strong>3.8 - 4.3 L/100km</strong></li>
-            <li><span>Émissions CO2 / Emissions</span> <strong>87 - 98 g/km</strong></li>
-            <li><span>Volume Coffre / Trunk</span> <strong>286 Litres</strong></li>
+            <li><span>Audi Q8 50 TDI (2023) — 68,707 km | 286 HP</span> <strong>68.890 €</strong></li>
+            <li><span>Audi Q8 S-Line (2018) — 149,707 km | 286 HP</span> <strong>37.950 €</strong></li>
+            <li><span>Porsche Macan Turbo (2015) — 155,605 km | 400 HP</span> <strong>30.990 €</strong></li>
+            <li><span>Mercedes GLE 350d AMG (2016) — 190,215 km | 258 HP</span> <strong>28.990 €</strong></li>
+            <li><span>BMW X5 xDrive35i (2014) — 114,000 km | 306 HP</span> <strong>22.990 €</strong></li>
         </ul>
 
         <div class="contact-box">
-            <h3 style="color: #111;">22 490 €</h3>
-            <p style="color: #111;">État Comme Neuf - 38 494 km</p>
-            <p style="color: #333; margin-top: 10px;">Garantie Toyota Relax (jusqu'en 2033)</p>
-            <p style="margin-top: 20px; font-size: 1rem; border-top: 1px solid #111; padding-top: 15px;">
-                Contact WhatsApp: +352 621 430 283<br>
-                Email: yucolaguilar@gmail.com
+            <h3 style="color: #111;">Búsqueda a la Carta</h3>
+            <p style="color: #111; font-size: 1rem;">¿Buscas otro modelo o presupuesto específico?</p>
+            <p style="color: #333; margin-top: 5px; font-size: 0.95rem;">Nosotros lo localizamos en el mercado oficial alemán con garantía paneuropea de hasta 36 meses.</p>
+            <p style="margin-top: 15px; font-size: 0.9rem; border-top: 1px solid #111; padding-top: 10px; color: #111; font-weight: normal;">
+                WhatsApp: +352 621 430 283 | Email: yucolaguilar@gmail.com
             </p>
         </div>
-    </div>
-
-    <!-- Page 8: Legal Infographic -->
-    <div class="page-wrapper full-img-page">
-        <img src="assets/img3.png" />
     </div>
 
 </body>
