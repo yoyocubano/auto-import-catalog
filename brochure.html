@@ -64,6 +64,16 @@
             .no-print { display: none; }
         }
 
+        .print-btn {
+            position: fixed; top: 20px; right: 20px;
+            background: #d4af37; color: #111; padding: 12px 24px;
+            font-size: 1rem; font-weight: bold; font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase; letter-spacing: 1px; border: none;
+            cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            border-radius: 4px; z-index: 1000; transition: transform 0.2s;
+        }
+        .print-btn:hover { transform: scale(1.05); }
+
         /* Responsive Styles for Mobile */
         @media screen and (max-width: 768px) {
             .page-wrapper {
@@ -96,16 +106,6 @@
             }
             .full-img-page img { height: 100vh; object-fit: cover; }
         }
-
-        .print-btn {
-            position: fixed; top: 20px; right: 20px;
-            background: #d4af37; color: #111; padding: 12px 24px;
-            font-size: 1rem; font-weight: bold; font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase; letter-spacing: 1px; border: none;
-            cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            border-radius: 4px; z-index: 1000; transition: transform 0.2s;
-        }
-        .print-btn:hover { transform: scale(1.05); }
 
     </style>
 </head>
